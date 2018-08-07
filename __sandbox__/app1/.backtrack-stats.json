@@ -8,7 +8,7 @@
         ],
         "files": {
             ".babelrc.js": "8cb9744e976cb0ea6f95b27c68b99d03e887a688ac5cb86e5d297efd599639e3",
-            ".circleci/config.yml": "83b84a147f99c8dc58b87303fc83f374b49e53204172e0d4b26a43d9669645f8",
+            ".circleci/config.yml": "309b68fe564cfb23b83269075da74d89597cb0b90978735580c50bdc1e9d6f64",
             ".editorconfig": "65c8c6dd2b55cd63f7a55d2ed77bb1344a345ed651c5b0a1cb689fa95753e63d",
             ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
             ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
@@ -30,7 +30,7 @@
             ]
         },
         "engines": {
-            "node": ">=8.9.0",
+            "node": "^8.9.0",
             "npm": ">=5.6.0"
         },
         "files": [

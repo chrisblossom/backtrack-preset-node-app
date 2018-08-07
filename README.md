@@ -52,6 +52,13 @@ module.exports = {
                  * default: true
                  */
                 flow: false,
+
+                /**
+                 * Use node 10
+                 *
+                 * default: '^8.9.0'
+                 */
+                nodeVersion: '^10',
             },
         ],
     ],
