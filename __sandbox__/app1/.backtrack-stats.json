@@ -1,0 +1,57 @@
+{
+    "fileManager": {
+        "directories": [
+            ".circleci",
+            "dist",
+            "flow-typed",
+            "src"
+        ],
+        "files": {
+            ".babelrc.js": "8cb9744e976cb0ea6f95b27c68b99d03e887a688ac5cb86e5d297efd599639e3",
+            ".circleci/config.yml": "83b84a147f99c8dc58b87303fc83f374b49e53204172e0d4b26a43d9669645f8",
+            ".editorconfig": "65c8c6dd2b55cd63f7a55d2ed77bb1344a345ed651c5b0a1cb689fa95753e63d",
+            ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+            ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
+            ".flowconfig": "a097b005abea75e2e62d08a1cdbf12263aa9e5c220be921f7992a1cbc1e1bd18",
+            ".gitignore": "715c4f869d50d4e11254a97441df027e6cabd50612d10e844e5efba4078f484f",
+            ".lintstagedrc.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
+            ".prettierignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+            ".prettierrc.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
+            "flow-typed/jest.js": "dfb57c1db3a0b01a101ca14855be030bcc566be90bf00110f2fa16b42e92158d",
+            "jest.config.js": "4a1c02ec2ad2ed327246fea56e516a92bd7b57fedaba14da38faaa117410670d",
+            "src/app1.js": "ignoreUpdates",
+            "wallaby.config.js": "bfd3a73af1c8ecd93d812d70e4e599406f14eda36920955df69a4109a3a2ed2e"
+        }
+    },
+    "packageJson": {
+        "babel": {
+            "presets": [
+                "./.babelrc.js"
+            ]
+        },
+        "engines": {
+            "node": ">=8.9.0",
+            "npm": ">=5.6.0"
+        },
+        "files": [
+            "dist/"
+        ],
+        "main": "dist/app1.js",
+        "scripts": {
+            "build": "backtrack build --production",
+            "clean": "backtrack clean",
+            "dev": "backtrack dev --development",
+            "flow": "backtrack flow",
+            "format": "backtrack format",
+            "lint": "backtrack lint",
+            "lint.fix": "backtrack lint.fix",
+            "precommit": "backtrack precommit",
+            "prepush": "backtrack prepush",
+            "test": "backtrack test",
+            "test.ci": "backtrack test.ci",
+            "test.ci-pretest": "backtrack test.ci-pretest",
+            "test.update": "jest --updateSnapshot",
+            "test.watch": "jest --watch"
+        }
+    }
+}

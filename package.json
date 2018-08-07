@@ -1,0 +1,59 @@
+{
+  "name": "@backtrack/preset-node-app",
+  "version": "0.1.0",
+  "description": "backtrack preset to bootstrap a node application",
+  "keywords": [
+    "backtrack",
+    "preset",
+    "node",
+    "app",
+    "application",
+    "babel",
+    "flow"
+  ],
+  "license": "MIT",
+  "repository": "chrisblossom/backtrack-preset-node-app",
+  "homepage": "https://github.com/chrisblossom/backtrack-preset-node-app",
+  "author": "Chris Blossom",
+  "engines": {
+    "node": ">=8.9.0",
+    "npm": ">=5.6.0"
+  },
+  "files": [
+    "lib/"
+  ],
+  "main": "lib/preset-node-app.js",
+  "scripts": {
+    "format": "backtrack format",
+    "lint": "backtrack lint",
+    "lint.fix": "backtrack lint.fix",
+    "precommit": "backtrack precommit",
+    "prepublishOnly": "backtrack prepublishOnly",
+    "prepush": "backtrack prepush",
+    "test": "backtrack test",
+    "test.ci": "backtrack test.ci",
+    "test.ci-pretest": "backtrack test.ci-pretest",
+    "test.update": "jest --updateSnapshot",
+    "test.watch": "jest --watch"
+  },
+  "devDependencies": {
+    "@backtrack/core": "^0.1.20",
+    "@backtrack/preset-preset": "^0.3.7"
+  },
+  "dependencies": {
+    "@backtrack/preset-jest": "^0.3.6",
+    "@backtrack/preset-style": "^0.1.11",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-dynamic-import-node": "^2.0.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-flow": "^6.23.0",
+    "chokidar": "^2.0.4",
+    "flow-copy-source": "^2.0.2",
+    "nodemon": "^1.18.3",
+    "read-pkg-up": "^4.0.0",
+    "recursive-copy": "^2.0.9"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "name": "app1",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
+  "engines": {
+    "node": ">=8.9.0",
+    "npm": ">=5.6.0"
+  },
+  "files": [
+    "dist/"
+  ],
+  "main": "dist/app1.js",
+  "scripts": {
+    "build": "backtrack build --production",
+    "clean": "backtrack clean",
+    "dev": "backtrack dev --development",
+    "flow": "backtrack flow",
+    "format": "backtrack format",
+    "lint": "backtrack lint",
+    "lint.fix": "backtrack lint.fix",
+    "precommit": "backtrack precommit",
+    "prepush": "backtrack prepush",
+    "test": "backtrack test",
+    "test.ci": "backtrack test.ci",
+    "test.ci-pretest": "backtrack test.ci-pretest",
+    "test.update": "jest --updateSnapshot",
+    "test.watch": "jest --watch"
+  },
+  "babel": {
+    "presets": [
+      "./.babelrc.js"
+    ]
+  },
+  "devDependencies": {
+    "@backtrack/core": "^0.1.20"
+  },
+  "dependencies": {
+    "@backtrack/preset-node-app": "file:../.."
+  }
+}

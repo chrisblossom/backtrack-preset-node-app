@@ -1,0 +1,50 @@
+{
+    "fileManager": {
+        "directories": [
+            ".circleci",
+            "lib/files"
+        ],
+        "files": {
+            ".circleci/config.yml": "83b84a147f99c8dc58b87303fc83f374b49e53204172e0d4b26a43d9669645f8",
+            ".editorconfig": "65c8c6dd2b55cd63f7a55d2ed77bb1344a345ed651c5b0a1cb689fa95753e63d",
+            ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+            ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
+            ".gitignore": "c204ca8726ae7f7e0aedcd854a49064fd5a2385de43318f58e8cd70e7dd5adbd",
+            ".lintstagedrc.js": "c8dd8df94d9c8de4503bc1ab4b4ea12c7450d76ebbd50c9b4c3c7975609e28da",
+            ".npmrc": "f92bfc9e4d622a5c53c3fcd1b61206420f8dc666db99e57560c33ad2fdc80a47",
+            ".prettierignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
+            ".prettierrc.js": "d30f794e5447d44ad2ed8a1123bc15fdaf6775ad7776f3c1411e3b965f3d3a20",
+            ".yarnrc": "e4bdd4d0bcb6dd15e5585dc6fa2c90780abaf4904305afb12d9af02000e070f3",
+            "CHANGELOG.md": "ignoreUpdates",
+            "README.md": "ignoreUpdates",
+            "appveyor.yml": "9a237c2fcea7a8f3e5e3d89a248a763f6c078803afc547ab18478b2083c82492",
+            "jest.config.js": "322dd136d43514064c38fdf8cd999d6511d83af8efbb35d8d355a3f35937c6c4",
+            "lib/preset-node-app.js": "ignoreUpdates",
+            "lib/preset-node-app.test.js": "ignoreUpdates",
+            "wallaby.config.js": "b79a89efd0484c2aba8477197056e4ae331dc6a0d533e050edd99d89630cb78f"
+        }
+    },
+    "packageJson": {
+        "engines": {
+            "node": ">=8.9.0",
+            "npm": ">=5.6.0"
+        },
+        "files": [
+            "lib/"
+        ],
+        "main": "lib/preset-node-app.js",
+        "scripts": {
+            "format": "backtrack format",
+            "lint": "backtrack lint",
+            "lint.fix": "backtrack lint.fix",
+            "precommit": "backtrack precommit",
+            "prepublishOnly": "backtrack prepublishOnly",
+            "prepush": "backtrack prepush",
+            "test": "backtrack test",
+            "test.ci": "backtrack test.ci",
+            "test.ci-pretest": "backtrack test.ci-pretest",
+            "test.update": "jest --updateSnapshot",
+            "test.watch": "jest --watch"
+        }
+    }
+}
