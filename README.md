@@ -59,6 +59,11 @@ module.exports = {
                  * default: '^8.9.0'
                  */
                 nodeVersion: '^10',
+
+                /**
+                 * Use custom babel config file
+                 */
+                babelConfig: path.resolve(process.cwd(), '.babelrc.js'),
             },
         ],
     ],

@@ -5,4 +5,9 @@
  */
 
 // import 'source-map-support/register';
-console.log('hi');
+
+async function hello() {
+    await import ('./other.js');
+}
+
+hello();

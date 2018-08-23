@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "keywords": [],
-  "license": "ISC",
+  "license": "MIT",
   "author": "",
   "engines": {
     "node": "^8.9.0",
@@ -28,11 +28,6 @@
     "test.ci-pretest": "backtrack test.ci-pretest",
     "test.update": "jest --updateSnapshot",
     "test.watch": "jest --watch"
-  },
-  "babel": {
-    "presets": [
-      "./.babelrc.js"
-    ]
   },
   "devDependencies": {
     "@backtrack/core": "^0.1.20"
