@@ -41,8 +41,8 @@
     "@backtrack/preset-preset": "^0.3.7"
   },
   "dependencies": {
-    "@backtrack/preset-jest": "^0.3.6",
-    "@backtrack/preset-style": "^0.1.11",
+    "@backtrack/preset-jest": "^0.3.7",
+    "@backtrack/preset-style": "^0.1.12",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-plugin-dynamic-import-node": "^2.0.0",
