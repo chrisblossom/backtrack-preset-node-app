@@ -51,6 +51,7 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-flow": "^6.23.0",
     "chokidar": "^2.0.4",
+    "del": "^3.0.0",
     "flow-copy-source": "^2.0.2",
     "nodemon": "^1.18.3",
     "read-pkg": "^4.0.1",
