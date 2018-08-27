@@ -7,7 +7,7 @@
             "src"
         ],
         "files": {
-            ".circleci/config.yml": "309b68fe564cfb23b83269075da74d89597cb0b90978735580c50bdc1e9d6f64",
+            ".circleci/config.yml": "4fd9d1887710e02871486fa21d6cc5d35d7dce9e55a0e4ee39bc5145c136d23c",
             ".editorconfig": "65c8c6dd2b55cd63f7a55d2ed77bb1344a345ed651c5b0a1cb689fa95753e63d",
             ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
             ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
@@ -23,8 +23,13 @@
         }
     },
     "packageJson": {
+        "babel": {
+            "presets": [
+                "@backtrack/preset-node-app/babel-flow"
+            ]
+        },
         "engines": {
-            "node": "^8.9.0",
+            "node": "^6",
             "npm": ">=5.6.0"
         },
         "files": [

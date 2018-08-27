@@ -180,6 +180,11 @@ Object {
       },
     },
     Object {
+      "babel": Object {
+        "presets": Array [
+          "@backtrack/preset-node-app/babel-flow",
+        ],
+      },
       "engines": Object {
         "node": "^8.9.0",
         "npm": ">=5.6.0",
@@ -381,6 +386,11 @@ Object {
       },
     },
     Object {
+      "babel": Object {
+        "presets": Array [
+          "@backtrack/preset-node-app/babel-no-flow",
+        ],
+      },
       "engines": Object {
         "node": "^8.9.0",
         "npm": ">=5.6.0",

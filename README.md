@@ -7,11 +7,11 @@
 
 ## About
 
-[`backtrack`](https://github.com/chrisblossom/backtrack) preset that bootstraps a `node >=v8.9.0` app.
+[`backtrack`](https://github.com/chrisblossom/backtrack) preset that bootstraps a `node` app.
 
 ## Features
 
--   [`babel`](https://babeljs.io/) with [`babel-preset-env`](https://babeljs.io/docs/plugins/preset-env/) targeting [`node v8.9.0`](./lib/files/babelrc.js)
+-   [`babel`](https://babeljs.io/) with [`babel-preset-env`](https://babeljs.io/docs/plugins/preset-env/) targeting `node v8.9.0` by default
 -   [`flow`](https://flow.org/), [`eslint`](https://eslint.org/), and [`prettier`](https://prettier.io)
 -   [`jest`](https://facebook.github.io/jest/) with [CircleCI](https://circleci.com/)
 -   `package.json` scripts `build` and `dev`
@@ -63,7 +63,7 @@ module.exports = {
                 /**
                  * Use custom babel config file
                  */
-                babelConfig: path.resolve(process.cwd(), '.babelrc.js'),
+                babelConfig: './.babelrc.js',
             },
         ],
     ],

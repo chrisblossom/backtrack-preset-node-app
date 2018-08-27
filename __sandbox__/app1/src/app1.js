@@ -7,7 +7,7 @@
 // import 'source-map-support/register';
 
 async function hello() {
-    await import ('./other.js');
+    await import('./other.js');
 }
 
 hello();
