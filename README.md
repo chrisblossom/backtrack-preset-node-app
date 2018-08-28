@@ -54,7 +54,7 @@ module.exports = {
                 flow: false,
 
                 /**
-                 * Use node 10
+                 * Use node ^10
                  *
                  * default: '^8.9.0'
                  */
@@ -63,7 +63,7 @@ module.exports = {
                 /**
                  * Use npm >=6
                  *
-                 * default: '^8.9.0'
+                 * default: '>=5.6.0'
                  */
                 npmVersion: '>=6',
 
