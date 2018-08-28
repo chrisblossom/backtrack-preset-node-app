@@ -8,6 +8,8 @@ module.exports = {
             node: '>=8.9.0',
             npm: '>=5.6.0',
         },
+
+        files: ['lib/', 'babel-flow.js', 'babel-no-flow.js'],
     },
 
     config: {

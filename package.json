@@ -20,7 +20,9 @@
     "npm": ">=5.6.0"
   },
   "files": [
-    "lib/"
+    "lib/",
+    "babel-flow.js",
+    "babel-no-flow.js"
   ],
   "main": "lib/preset-node-app.js",
   "scripts": {
