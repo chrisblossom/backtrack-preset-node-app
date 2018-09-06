@@ -1,6 +1,6 @@
 {
   "name": "@backtrack/preset-node-app",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "description": "backtrack preset to bootstrap a node application",
   "keywords": [
     "backtrack",
