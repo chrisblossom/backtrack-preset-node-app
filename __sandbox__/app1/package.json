@@ -17,6 +17,7 @@
     "build": "backtrack build --production",
     "clean": "backtrack clean",
     "dev": "backtrack dev --development",
+    "dev.watch-only": "backtrack dev.watch-only",
     "flow": "backtrack flow",
     "format": "backtrack format",
     "lint": "backtrack lint",

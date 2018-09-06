@@ -45,6 +45,25 @@ Object {
     [Function anonymous],
     [Function anonymous],
   ],
+  "dev.watch-only": Array [
+    "backtrack clean",
+    Array [
+      Object {
+        "name": "babel",
+        "task": [Function task],
+      },
+      Object {
+        "name": "copy files",
+        "task": [Function task],
+      },
+      Object {
+        "name": "flow-copy-source",
+        "task": [Function task],
+      },
+    ],
+    [Function anonymous],
+    [Function anonymous],
+  ],
   "files": Object {
     "dest": Object {
       "absolute": Object {
@@ -255,6 +274,21 @@ Object {
     "makeDirs": Array [],
   },
   "dev": Array [
+    "backtrack clean",
+    Array [
+      Object {
+        "name": "babel",
+        "task": [Function task],
+      },
+      Object {
+        "name": "copy files",
+        "task": [Function task],
+      },
+    ],
+    [Function anonymous],
+    [Function anonymous],
+  ],
+  "dev.watch-only": Array [
     "backtrack clean",
     Array [
       Object {
