@@ -7,7 +7,7 @@
             "src"
         ],
         "files": {
-            ".circleci/config.yml": "4fd9d1887710e02871486fa21d6cc5d35d7dce9e55a0e4ee39bc5145c136d23c",
+            ".circleci/config.yml": "af4cc99927d13f77b7283335f7671d4943326a1e1e14c5ced4e4c5ab613b21a4",
             ".editorconfig": "65c8c6dd2b55cd63f7a55d2ed77bb1344a345ed651c5b0a1cb689fa95753e63d",
             ".eslintignore": "7b358a16955be6b9b56add38102fccd293af540701ac91cd5020bfe37fe3fbb3",
             ".eslintrc.js": "0de8c62f28870b2afeb3eb58a5a9a106a96c9181aa9478f71760bb155bb4a205",
@@ -29,7 +29,7 @@
             ]
         },
         "engines": {
-            "node": "^6",
+            "node": "^8",
             "npm": ">=5.6.0"
         },
         "files": [

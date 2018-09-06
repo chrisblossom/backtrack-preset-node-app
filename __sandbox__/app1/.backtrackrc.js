@@ -1,5 +1,5 @@
 'use strict';
 
 module.exports = {
-    presets: [['../../', { nodeVersion: '^6' }]],
+    presets: [['../../', { nodeVersion: '^8' }]],
 };
