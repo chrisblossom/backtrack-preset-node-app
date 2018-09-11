@@ -51,6 +51,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@backtrack/preset-jest": "^0.3.7",
     "@backtrack/preset-style": "^0.1.13",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-plugin-dynamic-import-node": "^2.1.0",
     "chokidar": "^2.0.4",
     "del": "^3.0.0",
