@@ -39,23 +39,23 @@
     "test.watch": "jest --watch"
   },
   "devDependencies": {
-    "@backtrack/core": "^0.1.20",
+    "@backtrack/core": "^0.1.22",
     "@backtrack/preset-preset": "^0.3.7"
   },
   "dependencies": {
     "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
+    "@babel/core": "^7.0.1",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/plugin-transform-strict-mode": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-flow": "^7.0.0",
     "@backtrack/preset-jest": "^0.3.7",
-    "@backtrack/preset-style": "^0.1.12",
+    "@backtrack/preset-style": "^0.1.13",
     "babel-plugin-dynamic-import-node": "^2.1.0",
     "chokidar": "^2.0.4",
     "del": "^3.0.0",
     "flow-copy-source": "^2.0.2",
-    "nodemon": "^1.18.3",
+    "nodemon": "^1.18.4",
     "read-pkg": "^4.0.1",
     "recursive-copy": "^2.0.9"
   }
