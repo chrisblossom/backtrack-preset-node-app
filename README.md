@@ -1,3 +1,5 @@
+> This module has been deprecated. Please use [chrisblossom/backtrack-preset-node](https://github.com/chrisblossom/backtrack-preset-node) instead.
+
 # @backtrack/preset-node-app
 
 [![npm](https://img.shields.io/npm/v/@backtrack/preset-node-app.svg?label=npm%20version)](https://www.npmjs.com/package/@backtrack/preset-node-app)
